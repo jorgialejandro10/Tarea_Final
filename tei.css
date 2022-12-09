@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Ms+Madi&display=swap');
+
+body {
+  font-size: 12pt;
+  margin: auto;
+  max-width: 600px;
+  padding: 10px;
+  
+}
+
+tei-body {
+  font-size: 15pt;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Babylonica', cursive;
+}
+
+tei-head {
+  display: block;
+  text-align: center; font-weight: bold;
+ font-size: 180%;
+ padding: 20px;
+ margin-bottom: 10px;
+ color: rgb(10, 10, 41);
+ 
+}
+
+tei-p {
+  display: block;
+  margin
+}
+
+tei-div {
+background-color: darkgrey; 
+display: block;
+padding: 10px;
+border: dotted;
+margin-bottom: 10px;
+
+
+
+}
+
+tei-div[type="manuscrito"]{
+
+  font-family: 'Babylonica', cursive;
+
+
+}
+
+  tei-div[type="impreso"]{
+
+    font-family: monospace;
+    font-style: 80%;
+   
+  }
+
+
+
+
+tei-head tei-persname{
+  font-variant: normal;
+
+
+}
+
+tei-foreign {
+text-decoration: underline;
+
+}
+
+tei-abbr{
+
+  display: none;
+
+}
+
+tei-corr{
+
+  color: green;
+  font-weight: bold;
+
+}
+
+tei-del{
+  color: rgb(182, 29, 29);
+  text-decoration: line-through;
+
+   }
+
+   tei-add{
+
+    color: blue;
+    font-weight: bold;
+   }
+
+   tei-gap{
+
+    background-color: black;
+  
+       }
+
+       tei-gap::before{
+        content: " ";
+
+        white-space: pre;
+       }
+
+       tei-lb::before{
+
+        white-space: pre;
+        content: "\A";
+
+
+       }
+
+       tei-signed{
+
+        font-size: 110%;
+        color: blueviolet;
+        font-family: 'Ms Madi', cursive;
+        
+       
+
+       }
